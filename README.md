@@ -32,4 +32,4 @@ The following paragraph will explain what's contained in each tag. Just run 'git
 ### s0
 Tags begin with 's0' show the basic knowledge about microservices, such as the knowledge about Spring Boot, and Domain Driven Design.
 * [s0.spring.boot](docs/s0.spring.boot.md)
-
+* [s0.domain.1](docs/s0.domain.1.md)
