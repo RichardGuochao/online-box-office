@@ -34,3 +34,7 @@ Tags begin with 's0' show the basic knowledge about microservices, such as the k
 * [s0.spring.boot](docs/s0.spring.boot.md)
 * [s0.domain.1](docs/s0.domain.1.md)
 * [s0.domain.2](docs/s0.domain.2.md)
+### s1
+Tags begun with 's0' show some common patterns in microservices, and how to implement them in Spring Cloud.
+Tags with 's1.lb.' prefix are related to load balancing. Tags with 's1.cb.' prefix are related to circuit breaker.
+* [s1.lb.0.RestTemplate](docs/s1.lb.0.RestTemplate.md)
