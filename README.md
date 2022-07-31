@@ -38,8 +38,8 @@ Tags begin with 's0' show the basic knowledge about microservices, such as the k
 ### s1
 Tags begun with 's0' show some common patterns in microservices, and how to implement them in Spring Cloud.
 Tags with '**_s1.lb._**' prefix are related to load balancing. Tags with '**_s1.cb._**' prefix are related to circuit breaker.
-
 * Load balancing **_s1.lb_**
   * [s1.lb.0.RestTemplate](docs/s1.lb.0.RestTemplate.md)
   * [s1.lb.1.RestTemplate.SimpleDiscoveryClient](docs/s1.lb.1.RestTemplate.SimpleDiscoveryClient.md)
   * [s1.lb.2.RestTemplate.Eureka](docs/s1.lb.2.RestTemplate.Eureka.md)
+  * [s1.lb.3.OpenFeign.Eureka](docs/s1.lb.3.OpenFeign.Eureka.md)
