@@ -5,9 +5,11 @@ Online Box Office(obo) is an example project for microservice architecture style
   * [JDK](#jdk)
   * [Maven](#maven)
   * [IDEA / Eclipse](#idea--eclipse)
+  * [MySQL](#mysql)
 * [Tags](#tags)
   * [s0](#s0)
   * [s1](#s1)
+  * [s2](#s2)
 <!-- TOC -->
 ## Deployment
 In order to run this project, you will have to install the following software:
@@ -27,6 +29,12 @@ An IDE is a good plus to help you understand the source code. Choose one of your
 
 IDEA is preferred.
 
+### MySQL
+MySQL provides different package for different platform. 
+[Here](https://dev.mysql.com/downloads/mysql/) is the page for Windows, you can choose MSI installer to install MySQL.
+It's easy to install and configure MySQL following the step of MSI installer. 
+See [this file](docs/mysql.md) for noninstall archive instruction.
+
 ## Tags
 In order to show different technology/pattern of microservices, some tags were added to this project.
 The following paragraph will explain what's contained in each tag. Just run 'git checkout <tag name>' to see the implementation.
@@ -36,7 +44,7 @@ Tags begin with 's0' show the basic knowledge about microservices, such as the k
 * [s0.domain.1](docs/s0.domain.1.md)
 * [s0.domain.2](docs/s0.domain.2.md)
 ### s1
-Tags begun with 's0' show some common patterns in microservices, and how to implement them in Spring Cloud.
+Tags begun with 's1' show some common patterns in microservices, and how to implement them in Spring Cloud.
 Tags with '**_s1.lb._**' prefix are related to load balancing. Tags with '**_s1.cb._**' prefix are related to circuit breaker.
 * Load balancing **_s1.lb_**
   * [s1.lb.0.RestTemplate](docs/s1.lb.0.RestTemplate.md)
@@ -47,3 +55,6 @@ Tags with '**_s1.lb._**' prefix are related to load balancing. Tags with '**_s1.
   * [s1.cb.1.CircuitBreaker](docs/s1.cb.1.CircuitBreaker.md)
   * [s1.cb.2.FeignCircuitBreaker](docs/s1.cb.2.FeignCircuitBreaker.md)
   * [s1.cb.3.Bulkhead](docs/s1.cb.3.Bulkhead.md)
+### s2
+Tags begun with 's2' show some patterns about traditional relational database, such as distributed transaction, database sharding.
+* [s2.db.1.SEATA.AT](docs/s2.db.1.SEATA.AT.md)
