@@ -8,6 +8,7 @@ Online Box Office(obo) is an example project for microservice architecture style
   * [MySQL](#mysql)
   * [Kafka](#kafka)
   * [ShardingSphere Proxy](#shardingsphere-proxy)
+  * [Observability](#observability)
 * [Tags](#tags)
   * [s0](#s0)
   * [s1](#s1)
